@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestData
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.721 s <<< FAILURE! - in TestData
+OpenBrowser  Time elapsed: 0.022 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: '3GKWNF2', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at TestData.OpenBrowser(TestData.java:69)
+
+checkPageTitle  Time elapsed: 0.004 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: '3GKWNF2', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at TestData.checkPageTitle(TestData.java:77)
+
